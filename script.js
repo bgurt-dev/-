@@ -308,8 +308,7 @@ cartDialog.addEventListener('click', (event) => {
 });
 
 document.getElementById('checkout-button').addEventListener('click', () => {
-  document.getElementById('checkout-message').textContent =
-    'Поверни мамі карточку і більше так не роби.';
+   window.location.href = 'bin.html';
 });
 
 document.getElementById('theme-toggle').addEventListener('click', (event) => {
